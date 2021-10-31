@@ -1,0 +1,53 @@
+/* global font styles */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(0deg, #000000d5 30%, #ffffff44 100%),
+    url(../images/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: top;
+  overflow: hidden;
+}
+
+p,
+h1 {
+  color: white;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.info {
+  padding: 25% 60% 5% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo {
+  width: 50%;
+}
